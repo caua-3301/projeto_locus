@@ -1,0 +1,444 @@
+<!DOCTYPE >
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Locus, localização, ifpb cz, mapa">
+    <meta name="descripition" content="Esse site situa o usuário com relação ao espaço físico do ifpb campus cajazeiras">
+    <meta name="author" content="Cauã Pires Soares">
+    <meta name="reply-to" content="pires.soares@academico.ifpb.edu.br">
+    <link rel="shortcut icon" href="/imagens/favcoin_logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/estilos/estilos.css">
+    <title>Locus</title>
+</head>
+<body>
+
+<!--CABEÇALHO DO SITE -->
+    <header>
+        <img src="/imagens/logo_locus.jpeg" alt="Logo Locus" class="logo_locus">
+        <nav class="cell">
+            <div id="bordas_inicio">
+                <a href="" class="nav_inicio interacao" target="_self" rel="next" >PÁGINA INICIAL</a>
+                <a href="sugestoes.html" class="nav_inicio interacao" target="_self" rel="next" >SUGESTÕES</a>
+                <a href="sobre_o_site.html" class="nav_inicio interacao" target="_self" rel="next" >SOBRE O SITE</a>
+            </div>
+        </nav>
+            
+    </header>
+
+
+<!-- IMAGEM PRINCIPAL DO SITE -->
+
+    <article id="img_principal">
+        
+    </article>
+
+<!--NAV PRINCIPAL DO SITE-->
+
+    <main>
+        <div class="org_main">
+            <nav id="container_principal">
+                <a href="../paginas_gerais/salas.html" class="nav_principal cor" target="_self" rel="next" ></a>
+                <a href="../paginas_gerais/laboratorios.html" class="nav_principal cor" target="_self" rel="next" ></a>
+                <a href="../paginas_gerais/coordenacoes.html" class="nav_principal cor" target="_self" rel="next" ></a>
+                <a href="../paginas_gerais/areas_recre.html" class="nav_principal cor" target="_self" rel="next" ></a>
+                <a href="../paginas_gerais/empresas.html" class="nav_principal cor" target="_self" rel="next" ></a>
+            </nav>
+                
+            
+            <!-- LEGENDAS DO NAV PRINCIPAL DO SITE -->
+            <section id="container_legenda">
+                <p class="conteudo_legenda">SALAS</p>
+                <p class="conteudo_legenda">LABORATÓRIOS</p>
+                <p class="conteudo_legenda">COORDENAÇÕES</p>
+                <p class="conteudo_legenda">ÁREAS RECREATIVAS</p>
+                <p class="conteudo_legenda">EMPRESAS INTERNAS</p>
+            </section>
+        
+            <section id="container_legenda_sec">
+                <p class="conteudo_legenda_sec">Encontre as salas de aula numeradas aqui</p>
+                <p class="conteudo_legenda_sec">Encontre os laboratórios e suas especialidades</p>
+                <p class="conteudo_legenda_sec">Encontre as coordenações e suas funções</p>
+                <p class="conteudo_legenda_sec">Escontre as áreas recreativas para praticar esportes</p>
+                <p class="conteudo_legenda_sec">Encontre as empresas internas e suas oportuidades</p>
+            </section>
+        </div>
+
+        <h2 class="titulo_mapa">MAPA DO IFPB-CZ</h2>
+        <section class="posicao_mapa">
+            <div id="representacao"> </div> <!--REPRESENTAÇÃO DO MAPA-->
+                <!--MAPA CLICAVEL IFPB CZ-->
+                <div class="control">
+                    <img src="\imagens\img_satelite_ifpb.jpg" class="teste"/>
+                </div>
+                <div class="superior">
+                    <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+                    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100%" height="auto" viewBox="0 0 643 677" preserveAspectRatio="slice" xml:space="preserve">
+                    <desc>Created with Fabric.js 3.6.6</desc>
+                    <defs>
+                    </defs>
+                    <a id="bloco-01" href="\blocos\bloco01.html" target="_self">
+                        <g transform="matrix(0.13 0 0 0.13 258.25 493.25)"  >
+                        <g>
+                            <g transform="matrix(1 0 0 1 1.27 1.22)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.27, -251.22)" d="M 126.358475 253.552673 C 124.871017 228.373642 131.694748 205.770706 144.689957 184.830093 C 157.075745 164.871506 173.932098 149.665436 194.603928 138.790436 C 208.577728 131.439117 223.782547 127.937111 239.45253 126.537666 C 244.02594 126.129242 248.642303 126.201782 253.70282 126.132034 C 257.210327 126.874573 260.299805 126.279991 263.734009 126.731415 C 276.872589 127.589592 288.954132 131.124054 300.529938 136.238831 C 317.488953 143.732208 332.455994 154.205582 344.686188 168.218567 C 358.463623 184.004333 368.278229 202.058105 372.944489 222.530228 C 379.089142 249.488525 377.117065 275.926117 365.86734 301.380035 C 354.48761 327.128235 336.393066 346.748383 311.870361 360.658844 C 289.755188 373.203583 265.92215 377.793579 240.935486 375.887634 C 213.737473 373.812988 189.753876 363.528259 168.91777 345.64035 C 152.876846 331.869202 141.559875 315.004791 133.835327 295.564026 C 129.784348 285.368713 127.748978 274.639313 126.24765 263.400574 C 126.907959 260.00766 126.32531 256.947723 126.358475 253.552673 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 9.21 -123.41)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-259.21, -126.59)" d="M 263.875427 126.564934 C 261.025757 127.12796 257.957275 127.084122 254.549332 126.278374 C 257.324707 126.210701 260.482758 126.211205 263.875427 126.564934 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 -123.49 8.16)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-126.51, -258.16)" d="M 126.196632 253.626221 C 126.265457 256.252625 127.519608 259.269775 126.356339 262.692261 C 126.137291 260.031281 126.145622 257.04718 126.196632 253.626221 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.13 1.14)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.13, -251.15)" d="M 294.564087 189.440186 C 309.364288 205.891739 313.489319 224.758362 308.02298 245.49826 C 299.566589 277.582794 282.520203 304.612701 258.061432 326.947083 C 252.235825 332.266693 250.141418 332.356567 244.37294 327.096588 C 217.927933 302.982849 199.25499 274.033936 192.907272 238.469147 C 185.353821 196.148972 222.557693 165.086456 262.637177 172.3647 C 274.988556 174.607651 285.53775 180.228577 294.564087 189.440186 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 0.95 -0.58)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-250.95, -249.42)" d="M 290.180664 259.125641 C 281.585449 279.49295 269.887695 297.331329 254.598328 312.818359 C 252.105911 315.343018 250.300247 315.79306 247.662125 313.033752 C 227.023605 291.447327 211.152954 267.11319 205.655823 237.290176 C 202.19696 218.525223 208.447571 202.709656 224.598785 192.279495 C 241.612503 181.292282 259.791382 181.129608 276.944092 191.924179 C 293.41748 202.291245 299.112671 218.261658 296.607147 237.25766 C 295.622894 244.719635 293.200317 251.827164 290.180664 259.125641 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.15 -17)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.15, -233)" d="M 220.150665 227.61441 C 225.628891 207.357529 243.140427 197.38269 261.497284 203.671112 C 276.101501 208.673965 284.963196 224.364456 281.718445 239.474594 C 278.318634 255.306793 264.171417 265.428528 247.331985 264.076691 C 232.798065 262.909912 220.441025 249.603699 219.939728 234.523407 C 219.868088 232.368088 220.028366 230.205048 220.150665 227.61441 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.11 -16.99)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.11, -233.01)" d="M 260.467957 248.755188 C 250.296143 253.41748 240.905731 251.016434 235.61438 242.673309 C 230.914627 235.262985 232.354309 225.40741 238.993134 219.543427 C 246.484573 212.926346 257.820068 213.482468 264.577026 220.798584 C 271.32782 228.108032 270.874908 239.479553 263.531952 246.391479 C 262.687378 247.186493 261.714752 247.845459 260.467957 248.755188 z" stroke-linecap="round" />
+                        </g>
+                        </g>
+                        </g>
+                    </a>
+                    <a id="quadra" href="\paginas_gerais\areas_recre.html" target="_self">
+                        <g transform="matrix(0.13 0 0 0.13 538.5 413.5)"  >
+                        <g>
+                            <g transform="matrix(1 0 0 1 1.27 1.22)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.27, -251.22)" d="M 126.358475 253.552673 C 124.871017 228.373642 131.694748 205.770706 144.689957 184.830093 C 157.075745 164.871506 173.932098 149.665436 194.603928 138.790436 C 208.577728 131.439117 223.782547 127.937111 239.45253 126.537666 C 244.02594 126.129242 248.642303 126.201782 253.70282 126.132034 C 257.210327 126.874573 260.299805 126.279991 263.734009 126.731415 C 276.872589 127.589592 288.954132 131.124054 300.529938 136.238831 C 317.488953 143.732208 332.455994 154.205582 344.686188 168.218567 C 358.463623 184.004333 368.278229 202.058105 372.944489 222.530228 C 379.089142 249.488525 377.117065 275.926117 365.86734 301.380035 C 354.48761 327.128235 336.393066 346.748383 311.870361 360.658844 C 289.755188 373.203583 265.92215 377.793579 240.935486 375.887634 C 213.737473 373.812988 189.753876 363.528259 168.91777 345.64035 C 152.876846 331.869202 141.559875 315.004791 133.835327 295.564026 C 129.784348 285.368713 127.748978 274.639313 126.24765 263.400574 C 126.907959 260.00766 126.32531 256.947723 126.358475 253.552673 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 9.21 -123.41)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-259.21, -126.59)" d="M 263.875427 126.564934 C 261.025757 127.12796 257.957275 127.084122 254.549332 126.278374 C 257.324707 126.210701 260.482758 126.211205 263.875427 126.564934 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 -123.49 8.16)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-126.51, -258.16)" d="M 126.196632 253.626221 C 126.265457 256.252625 127.519608 259.269775 126.356339 262.692261 C 126.137291 260.031281 126.145622 257.04718 126.196632 253.626221 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.13 1.14)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.13, -251.15)" d="M 294.564087 189.440186 C 309.364288 205.891739 313.489319 224.758362 308.02298 245.49826 C 299.566589 277.582794 282.520203 304.612701 258.061432 326.947083 C 252.235825 332.266693 250.141418 332.356567 244.37294 327.096588 C 217.927933 302.982849 199.25499 274.033936 192.907272 238.469147 C 185.353821 196.148972 222.557693 165.086456 262.637177 172.3647 C 274.988556 174.607651 285.53775 180.228577 294.564087 189.440186 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 0.95 -0.58)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-250.95, -249.42)" d="M 290.180664 259.125641 C 281.585449 279.49295 269.887695 297.331329 254.598328 312.818359 C 252.105911 315.343018 250.300247 315.79306 247.662125 313.033752 C 227.023605 291.447327 211.152954 267.11319 205.655823 237.290176 C 202.19696 218.525223 208.447571 202.709656 224.598785 192.279495 C 241.612503 181.292282 259.791382 181.129608 276.944092 191.924179 C 293.41748 202.291245 299.112671 218.261658 296.607147 237.25766 C 295.622894 244.719635 293.200317 251.827164 290.180664 259.125641 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.15 -17)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.15, -233)" d="M 220.150665 227.61441 C 225.628891 207.357529 243.140427 197.38269 261.497284 203.671112 C 276.101501 208.673965 284.963196 224.364456 281.718445 239.474594 C 278.318634 255.306793 264.171417 265.428528 247.331985 264.076691 C 232.798065 262.909912 220.441025 249.603699 219.939728 234.523407 C 219.868088 232.368088 220.028366 230.205048 220.150665 227.61441 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.11 -16.99)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.11, -233.01)" d="M 260.467957 248.755188 C 250.296143 253.41748 240.905731 251.016434 235.61438 242.673309 C 230.914627 235.262985 232.354309 225.40741 238.993134 219.543427 C 246.484573 212.926346 257.820068 213.482468 264.577026 220.798584 C 271.32782 228.108032 270.874908 239.479553 263.531952 246.391479 C 262.687378 247.186493 261.714752 247.845459 260.467957 248.755188 z" stroke-linecap="round" />
+                        </g>
+                        </g>
+                        </g>
+                    </a>
+                    <a id="campo" href="/paginas_gerais/areas_recre.html" target="_self">
+                        <g transform="matrix(0.13 0 0 0.13 505.5 559.5)"  >
+                        <g>
+                            <g transform="matrix(1 0 0 1 1.27 1.22)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.27, -251.22)" d="M 126.358475 253.552673 C 124.871017 228.373642 131.694748 205.770706 144.689957 184.830093 C 157.075745 164.871506 173.932098 149.665436 194.603928 138.790436 C 208.577728 131.439117 223.782547 127.937111 239.45253 126.537666 C 244.02594 126.129242 248.642303 126.201782 253.70282 126.132034 C 257.210327 126.874573 260.299805 126.279991 263.734009 126.731415 C 276.872589 127.589592 288.954132 131.124054 300.529938 136.238831 C 317.488953 143.732208 332.455994 154.205582 344.686188 168.218567 C 358.463623 184.004333 368.278229 202.058105 372.944489 222.530228 C 379.089142 249.488525 377.117065 275.926117 365.86734 301.380035 C 354.48761 327.128235 336.393066 346.748383 311.870361 360.658844 C 289.755188 373.203583 265.92215 377.793579 240.935486 375.887634 C 213.737473 373.812988 189.753876 363.528259 168.91777 345.64035 C 152.876846 331.869202 141.559875 315.004791 133.835327 295.564026 C 129.784348 285.368713 127.748978 274.639313 126.24765 263.400574 C 126.907959 260.00766 126.32531 256.947723 126.358475 253.552673 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 9.21 -123.41)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-259.21, -126.59)" d="M 263.875427 126.564934 C 261.025757 127.12796 257.957275 127.084122 254.549332 126.278374 C 257.324707 126.210701 260.482758 126.211205 263.875427 126.564934 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 -123.49 8.16)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-126.51, -258.16)" d="M 126.196632 253.626221 C 126.265457 256.252625 127.519608 259.269775 126.356339 262.692261 C 126.137291 260.031281 126.145622 257.04718 126.196632 253.626221 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.13 1.14)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.13, -251.15)" d="M 294.564087 189.440186 C 309.364288 205.891739 313.489319 224.758362 308.02298 245.49826 C 299.566589 277.582794 282.520203 304.612701 258.061432 326.947083 C 252.235825 332.266693 250.141418 332.356567 244.37294 327.096588 C 217.927933 302.982849 199.25499 274.033936 192.907272 238.469147 C 185.353821 196.148972 222.557693 165.086456 262.637177 172.3647 C 274.988556 174.607651 285.53775 180.228577 294.564087 189.440186 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 0.95 -0.58)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-250.95, -249.42)" d="M 290.180664 259.125641 C 281.585449 279.49295 269.887695 297.331329 254.598328 312.818359 C 252.105911 315.343018 250.300247 315.79306 247.662125 313.033752 C 227.023605 291.447327 211.152954 267.11319 205.655823 237.290176 C 202.19696 218.525223 208.447571 202.709656 224.598785 192.279495 C 241.612503 181.292282 259.791382 181.129608 276.944092 191.924179 C 293.41748 202.291245 299.112671 218.261658 296.607147 237.25766 C 295.622894 244.719635 293.200317 251.827164 290.180664 259.125641 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.15 -17)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.15, -233)" d="M 220.150665 227.61441 C 225.628891 207.357529 243.140427 197.38269 261.497284 203.671112 C 276.101501 208.673965 284.963196 224.364456 281.718445 239.474594 C 278.318634 255.306793 264.171417 265.428528 247.331985 264.076691 C 232.798065 262.909912 220.441025 249.603699 219.939728 234.523407 C 219.868088 232.368088 220.028366 230.205048 220.150665 227.61441 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.11 -16.99)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.11, -233.01)" d="M 260.467957 248.755188 C 250.296143 253.41748 240.905731 251.016434 235.61438 242.673309 C 230.914627 235.262985 232.354309 225.40741 238.993134 219.543427 C 246.484573 212.926346 257.820068 213.482468 264.577026 220.798584 C 271.32782 228.108032 270.874908 239.479553 263.531952 246.391479 C 262.687378 247.186493 261.714752 247.845459 260.467957 248.755188 z" stroke-linecap="round" />
+                        </g>
+                        </g>
+                        </g>
+                    </a>
+                    <a id="bloco-auditorio" href="https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiQ1ZjylfP_AhWsLLkGHcS7DpUQPAgI" target="_blank">
+                        <g transform="matrix(0.13 0 0 0.13 260.5 418.5)"  >
+                        <g>
+                            <g transform="matrix(1 0 0 1 1.27 1.22)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.27, -251.22)" d="M 126.358475 253.552673 C 124.871017 228.373642 131.694748 205.770706 144.689957 184.830093 C 157.075745 164.871506 173.932098 149.665436 194.603928 138.790436 C 208.577728 131.439117 223.782547 127.937111 239.45253 126.537666 C 244.02594 126.129242 248.642303 126.201782 253.70282 126.132034 C 257.210327 126.874573 260.299805 126.279991 263.734009 126.731415 C 276.872589 127.589592 288.954132 131.124054 300.529938 136.238831 C 317.488953 143.732208 332.455994 154.205582 344.686188 168.218567 C 358.463623 184.004333 368.278229 202.058105 372.944489 222.530228 C 379.089142 249.488525 377.117065 275.926117 365.86734 301.380035 C 354.48761 327.128235 336.393066 346.748383 311.870361 360.658844 C 289.755188 373.203583 265.92215 377.793579 240.935486 375.887634 C 213.737473 373.812988 189.753876 363.528259 168.91777 345.64035 C 152.876846 331.869202 141.559875 315.004791 133.835327 295.564026 C 129.784348 285.368713 127.748978 274.639313 126.24765 263.400574 C 126.907959 260.00766 126.32531 256.947723 126.358475 253.552673 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 9.21 -123.41)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-259.21, -126.59)" d="M 263.875427 126.564934 C 261.025757 127.12796 257.957275 127.084122 254.549332 126.278374 C 257.324707 126.210701 260.482758 126.211205 263.875427 126.564934 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 -123.49 8.16)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-126.51, -258.16)" d="M 126.196632 253.626221 C 126.265457 256.252625 127.519608 259.269775 126.356339 262.692261 C 126.137291 260.031281 126.145622 257.04718 126.196632 253.626221 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.13 1.14)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.13, -251.15)" d="M 294.564087 189.440186 C 309.364288 205.891739 313.489319 224.758362 308.02298 245.49826 C 299.566589 277.582794 282.520203 304.612701 258.061432 326.947083 C 252.235825 332.266693 250.141418 332.356567 244.37294 327.096588 C 217.927933 302.982849 199.25499 274.033936 192.907272 238.469147 C 185.353821 196.148972 222.557693 165.086456 262.637177 172.3647 C 274.988556 174.607651 285.53775 180.228577 294.564087 189.440186 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 0.95 -0.58)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-250.95, -249.42)" d="M 290.180664 259.125641 C 281.585449 279.49295 269.887695 297.331329 254.598328 312.818359 C 252.105911 315.343018 250.300247 315.79306 247.662125 313.033752 C 227.023605 291.447327 211.152954 267.11319 205.655823 237.290176 C 202.19696 218.525223 208.447571 202.709656 224.598785 192.279495 C 241.612503 181.292282 259.791382 181.129608 276.944092 191.924179 C 293.41748 202.291245 299.112671 218.261658 296.607147 237.25766 C 295.622894 244.719635 293.200317 251.827164 290.180664 259.125641 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.15 -17)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.15, -233)" d="M 220.150665 227.61441 C 225.628891 207.357529 243.140427 197.38269 261.497284 203.671112 C 276.101501 208.673965 284.963196 224.364456 281.718445 239.474594 C 278.318634 255.306793 264.171417 265.428528 247.331985 264.076691 C 232.798065 262.909912 220.441025 249.603699 219.939728 234.523407 C 219.868088 232.368088 220.028366 230.205048 220.150665 227.61441 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.11 -16.99)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.11, -233.01)" d="M 260.467957 248.755188 C 250.296143 253.41748 240.905731 251.016434 235.61438 242.673309 C 230.914627 235.262985 232.354309 225.40741 238.993134 219.543427 C 246.484573 212.926346 257.820068 213.482468 264.577026 220.798584 C 271.32782 228.108032 270.874908 239.479553 263.531952 246.391479 C 262.687378 247.186493 261.714752 247.845459 260.467957 248.755188 z" stroke-linecap="round" />
+                        </g>
+                        </g>
+                        </g>
+                    </a>
+                    <a id="bloco-2" href="/blocos/bloco02.html" target="_self">
+                        <g transform="matrix(0.13 0 0 0.13 347.5 306.5)"  >
+                        <g>
+                            <g transform="matrix(1 0 0 1 1.27 1.22)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.27, -251.22)" d="M 126.358475 253.552673 C 124.871017 228.373642 131.694748 205.770706 144.689957 184.830093 C 157.075745 164.871506 173.932098 149.665436 194.603928 138.790436 C 208.577728 131.439117 223.782547 127.937111 239.45253 126.537666 C 244.02594 126.129242 248.642303 126.201782 253.70282 126.132034 C 257.210327 126.874573 260.299805 126.279991 263.734009 126.731415 C 276.872589 127.589592 288.954132 131.124054 300.529938 136.238831 C 317.488953 143.732208 332.455994 154.205582 344.686188 168.218567 C 358.463623 184.004333 368.278229 202.058105 372.944489 222.530228 C 379.089142 249.488525 377.117065 275.926117 365.86734 301.380035 C 354.48761 327.128235 336.393066 346.748383 311.870361 360.658844 C 289.755188 373.203583 265.92215 377.793579 240.935486 375.887634 C 213.737473 373.812988 189.753876 363.528259 168.91777 345.64035 C 152.876846 331.869202 141.559875 315.004791 133.835327 295.564026 C 129.784348 285.368713 127.748978 274.639313 126.24765 263.400574 C 126.907959 260.00766 126.32531 256.947723 126.358475 253.552673 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 9.21 -123.41)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-259.21, -126.59)" d="M 263.875427 126.564934 C 261.025757 127.12796 257.957275 127.084122 254.549332 126.278374 C 257.324707 126.210701 260.482758 126.211205 263.875427 126.564934 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 -123.49 8.16)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-126.51, -258.16)" d="M 126.196632 253.626221 C 126.265457 256.252625 127.519608 259.269775 126.356339 262.692261 C 126.137291 260.031281 126.145622 257.04718 126.196632 253.626221 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.13 1.14)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.13, -251.15)" d="M 294.564087 189.440186 C 309.364288 205.891739 313.489319 224.758362 308.02298 245.49826 C 299.566589 277.582794 282.520203 304.612701 258.061432 326.947083 C 252.235825 332.266693 250.141418 332.356567 244.37294 327.096588 C 217.927933 302.982849 199.25499 274.033936 192.907272 238.469147 C 185.353821 196.148972 222.557693 165.086456 262.637177 172.3647 C 274.988556 174.607651 285.53775 180.228577 294.564087 189.440186 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 0.95 -0.58)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-250.95, -249.42)" d="M 290.180664 259.125641 C 281.585449 279.49295 269.887695 297.331329 254.598328 312.818359 C 252.105911 315.343018 250.300247 315.79306 247.662125 313.033752 C 227.023605 291.447327 211.152954 267.11319 205.655823 237.290176 C 202.19696 218.525223 208.447571 202.709656 224.598785 192.279495 C 241.612503 181.292282 259.791382 181.129608 276.944092 191.924179 C 293.41748 202.291245 299.112671 218.261658 296.607147 237.25766 C 295.622894 244.719635 293.200317 251.827164 290.180664 259.125641 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.15 -17)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.15, -233)" d="M 220.150665 227.61441 C 225.628891 207.357529 243.140427 197.38269 261.497284 203.671112 C 276.101501 208.673965 284.963196 224.364456 281.718445 239.474594 C 278.318634 255.306793 264.171417 265.428528 247.331985 264.076691 C 232.798065 262.909912 220.441025 249.603699 219.939728 234.523407 C 219.868088 232.368088 220.028366 230.205048 220.150665 227.61441 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.11 -16.99)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.11, -233.01)" d="M 260.467957 248.755188 C 250.296143 253.41748 240.905731 251.016434 235.61438 242.673309 C 230.914627 235.262985 232.354309 225.40741 238.993134 219.543427 C 246.484573 212.926346 257.820068 213.482468 264.577026 220.798584 C 271.32782 228.108032 270.874908 239.479553 263.531952 246.391479 C 262.687378 247.186493 261.714752 247.845459 260.467957 248.755188 z" stroke-linecap="round" />
+                        </g>
+                        </g>
+                        </g>
+                    </a>
+                    <a id="bloco-3" href="/blocos/bloco03.html" target="_self">
+                        <g transform="matrix(0.13 0 0 0.13 169.5 251.5)"  >
+                        <g>
+                            <g transform="matrix(1 0 0 1 1.27 1.22)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.27, -251.22)" d="M 126.358475 253.552673 C 124.871017 228.373642 131.694748 205.770706 144.689957 184.830093 C 157.075745 164.871506 173.932098 149.665436 194.603928 138.790436 C 208.577728 131.439117 223.782547 127.937111 239.45253 126.537666 C 244.02594 126.129242 248.642303 126.201782 253.70282 126.132034 C 257.210327 126.874573 260.299805 126.279991 263.734009 126.731415 C 276.872589 127.589592 288.954132 131.124054 300.529938 136.238831 C 317.488953 143.732208 332.455994 154.205582 344.686188 168.218567 C 358.463623 184.004333 368.278229 202.058105 372.944489 222.530228 C 379.089142 249.488525 377.117065 275.926117 365.86734 301.380035 C 354.48761 327.128235 336.393066 346.748383 311.870361 360.658844 C 289.755188 373.203583 265.92215 377.793579 240.935486 375.887634 C 213.737473 373.812988 189.753876 363.528259 168.91777 345.64035 C 152.876846 331.869202 141.559875 315.004791 133.835327 295.564026 C 129.784348 285.368713 127.748978 274.639313 126.24765 263.400574 C 126.907959 260.00766 126.32531 256.947723 126.358475 253.552673 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 9.21 -123.41)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-259.21, -126.59)" d="M 263.875427 126.564934 C 261.025757 127.12796 257.957275 127.084122 254.549332 126.278374 C 257.324707 126.210701 260.482758 126.211205 263.875427 126.564934 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 -123.49 8.16)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-126.51, -258.16)" d="M 126.196632 253.626221 C 126.265457 256.252625 127.519608 259.269775 126.356339 262.692261 C 126.137291 260.031281 126.145622 257.04718 126.196632 253.626221 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.13 1.14)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.13, -251.15)" d="M 294.564087 189.440186 C 309.364288 205.891739 313.489319 224.758362 308.02298 245.49826 C 299.566589 277.582794 282.520203 304.612701 258.061432 326.947083 C 252.235825 332.266693 250.141418 332.356567 244.37294 327.096588 C 217.927933 302.982849 199.25499 274.033936 192.907272 238.469147 C 185.353821 196.148972 222.557693 165.086456 262.637177 172.3647 C 274.988556 174.607651 285.53775 180.228577 294.564087 189.440186 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 0.95 -0.58)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-250.95, -249.42)" d="M 290.180664 259.125641 C 281.585449 279.49295 269.887695 297.331329 254.598328 312.818359 C 252.105911 315.343018 250.300247 315.79306 247.662125 313.033752 C 227.023605 291.447327 211.152954 267.11319 205.655823 237.290176 C 202.19696 218.525223 208.447571 202.709656 224.598785 192.279495 C 241.612503 181.292282 259.791382 181.129608 276.944092 191.924179 C 293.41748 202.291245 299.112671 218.261658 296.607147 237.25766 C 295.622894 244.719635 293.200317 251.827164 290.180664 259.125641 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.15 -17)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.15, -233)" d="M 220.150665 227.61441 C 225.628891 207.357529 243.140427 197.38269 261.497284 203.671112 C 276.101501 208.673965 284.963196 224.364456 281.718445 239.474594 C 278.318634 255.306793 264.171417 265.428528 247.331985 264.076691 C 232.798065 262.909912 220.441025 249.603699 219.939728 234.523407 C 219.868088 232.368088 220.028366 230.205048 220.150665 227.61441 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.11 -16.99)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.11, -233.01)" d="M 260.467957 248.755188 C 250.296143 253.41748 240.905731 251.016434 235.61438 242.673309 C 230.914627 235.262985 232.354309 225.40741 238.993134 219.543427 C 246.484573 212.926346 257.820068 213.482468 264.577026 220.798584 C 271.32782 228.108032 270.874908 239.479553 263.531952 246.391479 C 262.687378 247.186493 261.714752 247.845459 260.467957 248.755188 z" stroke-linecap="round" />
+                        </g>
+                        </g>
+                        </g>
+                    </a>
+                    <a id="bloco-novo" href="/blocos/bloco_novo.html" target="_self">
+                        <g transform="matrix(0.13 0 0 0.13 368.5 248.5)"  >
+                        <g>
+                            <g transform="matrix(1 0 0 1 1.27 1.22)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.27, -251.22)" d="M 126.358475 253.552673 C 124.871017 228.373642 131.694748 205.770706 144.689957 184.830093 C 157.075745 164.871506 173.932098 149.665436 194.603928 138.790436 C 208.577728 131.439117 223.782547 127.937111 239.45253 126.537666 C 244.02594 126.129242 248.642303 126.201782 253.70282 126.132034 C 257.210327 126.874573 260.299805 126.279991 263.734009 126.731415 C 276.872589 127.589592 288.954132 131.124054 300.529938 136.238831 C 317.488953 143.732208 332.455994 154.205582 344.686188 168.218567 C 358.463623 184.004333 368.278229 202.058105 372.944489 222.530228 C 379.089142 249.488525 377.117065 275.926117 365.86734 301.380035 C 354.48761 327.128235 336.393066 346.748383 311.870361 360.658844 C 289.755188 373.203583 265.92215 377.793579 240.935486 375.887634 C 213.737473 373.812988 189.753876 363.528259 168.91777 345.64035 C 152.876846 331.869202 141.559875 315.004791 133.835327 295.564026 C 129.784348 285.368713 127.748978 274.639313 126.24765 263.400574 C 126.907959 260.00766 126.32531 256.947723 126.358475 253.552673 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 9.21 -123.41)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-259.21, -126.59)" d="M 263.875427 126.564934 C 261.025757 127.12796 257.957275 127.084122 254.549332 126.278374 C 257.324707 126.210701 260.482758 126.211205 263.875427 126.564934 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 -123.49 8.16)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-126.51, -258.16)" d="M 126.196632 253.626221 C 126.265457 256.252625 127.519608 259.269775 126.356339 262.692261 C 126.137291 260.031281 126.145622 257.04718 126.196632 253.626221 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.13 1.14)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.13, -251.15)" d="M 294.564087 189.440186 C 309.364288 205.891739 313.489319 224.758362 308.02298 245.49826 C 299.566589 277.582794 282.520203 304.612701 258.061432 326.947083 C 252.235825 332.266693 250.141418 332.356567 244.37294 327.096588 C 217.927933 302.982849 199.25499 274.033936 192.907272 238.469147 C 185.353821 196.148972 222.557693 165.086456 262.637177 172.3647 C 274.988556 174.607651 285.53775 180.228577 294.564087 189.440186 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 0.95 -0.58)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-250.95, -249.42)" d="M 290.180664 259.125641 C 281.585449 279.49295 269.887695 297.331329 254.598328 312.818359 C 252.105911 315.343018 250.300247 315.79306 247.662125 313.033752 C 227.023605 291.447327 211.152954 267.11319 205.655823 237.290176 C 202.19696 218.525223 208.447571 202.709656 224.598785 192.279495 C 241.612503 181.292282 259.791382 181.129608 276.944092 191.924179 C 293.41748 202.291245 299.112671 218.261658 296.607147 237.25766 C 295.622894 244.719635 293.200317 251.827164 290.180664 259.125641 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.15 -17)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.15, -233)" d="M 220.150665 227.61441 C 225.628891 207.357529 243.140427 197.38269 261.497284 203.671112 C 276.101501 208.673965 284.963196 224.364456 281.718445 239.474594 C 278.318634 255.306793 264.171417 265.428528 247.331985 264.076691 C 232.798065 262.909912 220.441025 249.603699 219.939728 234.523407 C 219.868088 232.368088 220.028366 230.205048 220.150665 227.61441 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.11 -16.99)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.11, -233.01)" d="M 260.467957 248.755188 C 250.296143 253.41748 240.905731 251.016434 235.61438 242.673309 C 230.914627 235.262985 232.354309 225.40741 238.993134 219.543427 C 246.484573 212.926346 257.820068 213.482468 264.577026 220.798584 C 271.32782 228.108032 270.874908 239.479553 263.531952 246.391479 C 262.687378 247.186493 261.714752 247.845459 260.467957 248.755188 z" stroke-linecap="round" />
+                        </g>
+                        </g>
+                        </g>
+                    </a>
+                    <a id="piscina" href="/paginas_gerais/areas_recre.html" target="_self">
+                        <g transform="matrix(0.13 0 0 0.13 557.5 124.5)"  >
+                        <g>
+                            <g transform="matrix(1 0 0 1 1.27 1.22)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.27, -251.22)" d="M 126.358475 253.552673 C 124.871017 228.373642 131.694748 205.770706 144.689957 184.830093 C 157.075745 164.871506 173.932098 149.665436 194.603928 138.790436 C 208.577728 131.439117 223.782547 127.937111 239.45253 126.537666 C 244.02594 126.129242 248.642303 126.201782 253.70282 126.132034 C 257.210327 126.874573 260.299805 126.279991 263.734009 126.731415 C 276.872589 127.589592 288.954132 131.124054 300.529938 136.238831 C 317.488953 143.732208 332.455994 154.205582 344.686188 168.218567 C 358.463623 184.004333 368.278229 202.058105 372.944489 222.530228 C 379.089142 249.488525 377.117065 275.926117 365.86734 301.380035 C 354.48761 327.128235 336.393066 346.748383 311.870361 360.658844 C 289.755188 373.203583 265.92215 377.793579 240.935486 375.887634 C 213.737473 373.812988 189.753876 363.528259 168.91777 345.64035 C 152.876846 331.869202 141.559875 315.004791 133.835327 295.564026 C 129.784348 285.368713 127.748978 274.639313 126.24765 263.400574 C 126.907959 260.00766 126.32531 256.947723 126.358475 253.552673 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 9.21 -123.41)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-259.21, -126.59)" d="M 263.875427 126.564934 C 261.025757 127.12796 257.957275 127.084122 254.549332 126.278374 C 257.324707 126.210701 260.482758 126.211205 263.875427 126.564934 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 -123.49 8.16)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-126.51, -258.16)" d="M 126.196632 253.626221 C 126.265457 256.252625 127.519608 259.269775 126.356339 262.692261 C 126.137291 260.031281 126.145622 257.04718 126.196632 253.626221 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.13 1.14)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.13, -251.15)" d="M 294.564087 189.440186 C 309.364288 205.891739 313.489319 224.758362 308.02298 245.49826 C 299.566589 277.582794 282.520203 304.612701 258.061432 326.947083 C 252.235825 332.266693 250.141418 332.356567 244.37294 327.096588 C 217.927933 302.982849 199.25499 274.033936 192.907272 238.469147 C 185.353821 196.148972 222.557693 165.086456 262.637177 172.3647 C 274.988556 174.607651 285.53775 180.228577 294.564087 189.440186 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 0.95 -0.58)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-250.95, -249.42)" d="M 290.180664 259.125641 C 281.585449 279.49295 269.887695 297.331329 254.598328 312.818359 C 252.105911 315.343018 250.300247 315.79306 247.662125 313.033752 C 227.023605 291.447327 211.152954 267.11319 205.655823 237.290176 C 202.19696 218.525223 208.447571 202.709656 224.598785 192.279495 C 241.612503 181.292282 259.791382 181.129608 276.944092 191.924179 C 293.41748 202.291245 299.112671 218.261658 296.607147 237.25766 C 295.622894 244.719635 293.200317 251.827164 290.180664 259.125641 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.15 -17)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.15, -233)" d="M 220.150665 227.61441 C 225.628891 207.357529 243.140427 197.38269 261.497284 203.671112 C 276.101501 208.673965 284.963196 224.364456 281.718445 239.474594 C 278.318634 255.306793 264.171417 265.428528 247.331985 264.076691 C 232.798065 262.909912 220.441025 249.603699 219.939728 234.523407 C 219.868088 232.368088 220.028366 230.205048 220.150665 227.61441 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.11 -16.99)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.11, -233.01)" d="M 260.467957 248.755188 C 250.296143 253.41748 240.905731 251.016434 235.61438 242.673309 C 230.914627 235.262985 232.354309 225.40741 238.993134 219.543427 C 246.484573 212.926346 257.820068 213.482468 264.577026 220.798584 C 271.32782 228.108032 270.874908 239.479553 263.531952 246.391479 C 262.687378 247.186493 261.714752 247.845459 260.467957 248.755188 z" stroke-linecap="round" />
+                        </g>
+                        </g>
+                        </g>
+                    </a>
+                    <a id="bloco-4" href="/blocos/bloco04.html" target="_self">
+                        <g transform="matrix(0.13 0 0 0.13 368.5 196.5)"  >
+                        <g>
+                            <g transform="matrix(1 0 0 1 1.27 1.22)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.27, -251.22)" d="M 126.358475 253.552673 C 124.871017 228.373642 131.694748 205.770706 144.689957 184.830093 C 157.075745 164.871506 173.932098 149.665436 194.603928 138.790436 C 208.577728 131.439117 223.782547 127.937111 239.45253 126.537666 C 244.02594 126.129242 248.642303 126.201782 253.70282 126.132034 C 257.210327 126.874573 260.299805 126.279991 263.734009 126.731415 C 276.872589 127.589592 288.954132 131.124054 300.529938 136.238831 C 317.488953 143.732208 332.455994 154.205582 344.686188 168.218567 C 358.463623 184.004333 368.278229 202.058105 372.944489 222.530228 C 379.089142 249.488525 377.117065 275.926117 365.86734 301.380035 C 354.48761 327.128235 336.393066 346.748383 311.870361 360.658844 C 289.755188 373.203583 265.92215 377.793579 240.935486 375.887634 C 213.737473 373.812988 189.753876 363.528259 168.91777 345.64035 C 152.876846 331.869202 141.559875 315.004791 133.835327 295.564026 C 129.784348 285.368713 127.748978 274.639313 126.24765 263.400574 C 126.907959 260.00766 126.32531 256.947723 126.358475 253.552673 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 9.21 -123.41)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-259.21, -126.59)" d="M 263.875427 126.564934 C 261.025757 127.12796 257.957275 127.084122 254.549332 126.278374 C 257.324707 126.210701 260.482758 126.211205 263.875427 126.564934 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 -123.49 8.16)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-126.51, -258.16)" d="M 126.196632 253.626221 C 126.265457 256.252625 127.519608 259.269775 126.356339 262.692261 C 126.137291 260.031281 126.145622 257.04718 126.196632 253.626221 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.13 1.14)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.13, -251.15)" d="M 294.564087 189.440186 C 309.364288 205.891739 313.489319 224.758362 308.02298 245.49826 C 299.566589 277.582794 282.520203 304.612701 258.061432 326.947083 C 252.235825 332.266693 250.141418 332.356567 244.37294 327.096588 C 217.927933 302.982849 199.25499 274.033936 192.907272 238.469147 C 185.353821 196.148972 222.557693 165.086456 262.637177 172.3647 C 274.988556 174.607651 285.53775 180.228577 294.564087 189.440186 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 0.95 -0.58)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-250.95, -249.42)" d="M 290.180664 259.125641 C 281.585449 279.49295 269.887695 297.331329 254.598328 312.818359 C 252.105911 315.343018 250.300247 315.79306 247.662125 313.033752 C 227.023605 291.447327 211.152954 267.11319 205.655823 237.290176 C 202.19696 218.525223 208.447571 202.709656 224.598785 192.279495 C 241.612503 181.292282 259.791382 181.129608 276.944092 191.924179 C 293.41748 202.291245 299.112671 218.261658 296.607147 237.25766 C 295.622894 244.719635 293.200317 251.827164 290.180664 259.125641 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.15 -17)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.15, -233)" d="M 220.150665 227.61441 C 225.628891 207.357529 243.140427 197.38269 261.497284 203.671112 C 276.101501 208.673965 284.963196 224.364456 281.718445 239.474594 C 278.318634 255.306793 264.171417 265.428528 247.331985 264.076691 C 232.798065 262.909912 220.441025 249.603699 219.939728 234.523407 C 219.868088 232.368088 220.028366 230.205048 220.150665 227.61441 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.11 -16.99)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.11, -233.01)" d="M 260.467957 248.755188 C 250.296143 253.41748 240.905731 251.016434 235.61438 242.673309 C 230.914627 235.262985 232.354309 225.40741 238.993134 219.543427 C 246.484573 212.926346 257.820068 213.482468 264.577026 220.798584 C 271.32782 228.108032 270.874908 239.479553 263.531952 246.391479 C 262.687378 247.186493 261.714752 247.845459 260.467957 248.755188 z" stroke-linecap="round" />
+                        </g>
+                        </g>
+                        </g>
+                    </a>
+                    <a id="bloco-4a" href="/blocos/bloco04a.html" target="_self">
+                        <g transform="matrix(0.13 0 0 0.13 167.5 187.5)"  >
+                        <g>
+                            <g transform="matrix(1 0 0 1 1.27 1.22)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.27, -251.22)" d="M 126.358475 253.552673 C 124.871017 228.373642 131.694748 205.770706 144.689957 184.830093 C 157.075745 164.871506 173.932098 149.665436 194.603928 138.790436 C 208.577728 131.439117 223.782547 127.937111 239.45253 126.537666 C 244.02594 126.129242 248.642303 126.201782 253.70282 126.132034 C 257.210327 126.874573 260.299805 126.279991 263.734009 126.731415 C 276.872589 127.589592 288.954132 131.124054 300.529938 136.238831 C 317.488953 143.732208 332.455994 154.205582 344.686188 168.218567 C 358.463623 184.004333 368.278229 202.058105 372.944489 222.530228 C 379.089142 249.488525 377.117065 275.926117 365.86734 301.380035 C 354.48761 327.128235 336.393066 346.748383 311.870361 360.658844 C 289.755188 373.203583 265.92215 377.793579 240.935486 375.887634 C 213.737473 373.812988 189.753876 363.528259 168.91777 345.64035 C 152.876846 331.869202 141.559875 315.004791 133.835327 295.564026 C 129.784348 285.368713 127.748978 274.639313 126.24765 263.400574 C 126.907959 260.00766 126.32531 256.947723 126.358475 253.552673 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 9.21 -123.41)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-259.21, -126.59)" d="M 263.875427 126.564934 C 261.025757 127.12796 257.957275 127.084122 254.549332 126.278374 C 257.324707 126.210701 260.482758 126.211205 263.875427 126.564934 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 -123.49 8.16)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-126.51, -258.16)" d="M 126.196632 253.626221 C 126.265457 256.252625 127.519608 259.269775 126.356339 262.692261 C 126.137291 260.031281 126.145622 257.04718 126.196632 253.626221 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.13 1.14)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.13, -251.15)" d="M 294.564087 189.440186 C 309.364288 205.891739 313.489319 224.758362 308.02298 245.49826 C 299.566589 277.582794 282.520203 304.612701 258.061432 326.947083 C 252.235825 332.266693 250.141418 332.356567 244.37294 327.096588 C 217.927933 302.982849 199.25499 274.033936 192.907272 238.469147 C 185.353821 196.148972 222.557693 165.086456 262.637177 172.3647 C 274.988556 174.607651 285.53775 180.228577 294.564087 189.440186 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 0.95 -0.58)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-250.95, -249.42)" d="M 290.180664 259.125641 C 281.585449 279.49295 269.887695 297.331329 254.598328 312.818359 C 252.105911 315.343018 250.300247 315.79306 247.662125 313.033752 C 227.023605 291.447327 211.152954 267.11319 205.655823 237.290176 C 202.19696 218.525223 208.447571 202.709656 224.598785 192.279495 C 241.612503 181.292282 259.791382 181.129608 276.944092 191.924179 C 293.41748 202.291245 299.112671 218.261658 296.607147 237.25766 C 295.622894 244.719635 293.200317 251.827164 290.180664 259.125641 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.15 -17)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.15, -233)" d="M 220.150665 227.61441 C 225.628891 207.357529 243.140427 197.38269 261.497284 203.671112 C 276.101501 208.673965 284.963196 224.364456 281.718445 239.474594 C 278.318634 255.306793 264.171417 265.428528 247.331985 264.076691 C 232.798065 262.909912 220.441025 249.603699 219.939728 234.523407 C 219.868088 232.368088 220.028366 230.205048 220.150665 227.61441 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.11 -16.99)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.11, -233.01)" d="M 260.467957 248.755188 C 250.296143 253.41748 240.905731 251.016434 235.61438 242.673309 C 230.914627 235.262985 232.354309 225.40741 238.993134 219.543427 C 246.484573 212.926346 257.820068 213.482468 264.577026 220.798584 C 271.32782 228.108032 270.874908 239.479553 263.531952 246.391479 C 262.687378 247.186493 261.714752 247.845459 260.467957 248.755188 z" stroke-linecap="round" />
+                        </g>
+                        </g>
+                        </g>
+                    </a>
+                    <a id="bloco-5" href="/blocos/bloco05.html" target="_self">
+                        <g transform="matrix(0.13 0 0 0.13 171.5 149.5)"  >
+                        <g>
+                            <g transform="matrix(1 0 0 1 1.27 1.22)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.27, -251.22)" d="M 126.358475 253.552673 C 124.871017 228.373642 131.694748 205.770706 144.689957 184.830093 C 157.075745 164.871506 173.932098 149.665436 194.603928 138.790436 C 208.577728 131.439117 223.782547 127.937111 239.45253 126.537666 C 244.02594 126.129242 248.642303 126.201782 253.70282 126.132034 C 257.210327 126.874573 260.299805 126.279991 263.734009 126.731415 C 276.872589 127.589592 288.954132 131.124054 300.529938 136.238831 C 317.488953 143.732208 332.455994 154.205582 344.686188 168.218567 C 358.463623 184.004333 368.278229 202.058105 372.944489 222.530228 C 379.089142 249.488525 377.117065 275.926117 365.86734 301.380035 C 354.48761 327.128235 336.393066 346.748383 311.870361 360.658844 C 289.755188 373.203583 265.92215 377.793579 240.935486 375.887634 C 213.737473 373.812988 189.753876 363.528259 168.91777 345.64035 C 152.876846 331.869202 141.559875 315.004791 133.835327 295.564026 C 129.784348 285.368713 127.748978 274.639313 126.24765 263.400574 C 126.907959 260.00766 126.32531 256.947723 126.358475 253.552673 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 9.21 -123.41)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-259.21, -126.59)" d="M 263.875427 126.564934 C 261.025757 127.12796 257.957275 127.084122 254.549332 126.278374 C 257.324707 126.210701 260.482758 126.211205 263.875427 126.564934 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 -123.49 8.16)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-126.51, -258.16)" d="M 126.196632 253.626221 C 126.265457 256.252625 127.519608 259.269775 126.356339 262.692261 C 126.137291 260.031281 126.145622 257.04718 126.196632 253.626221 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.13 1.14)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.13, -251.15)" d="M 294.564087 189.440186 C 309.364288 205.891739 313.489319 224.758362 308.02298 245.49826 C 299.566589 277.582794 282.520203 304.612701 258.061432 326.947083 C 252.235825 332.266693 250.141418 332.356567 244.37294 327.096588 C 217.927933 302.982849 199.25499 274.033936 192.907272 238.469147 C 185.353821 196.148972 222.557693 165.086456 262.637177 172.3647 C 274.988556 174.607651 285.53775 180.228577 294.564087 189.440186 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 0.95 -0.58)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-250.95, -249.42)" d="M 290.180664 259.125641 C 281.585449 279.49295 269.887695 297.331329 254.598328 312.818359 C 252.105911 315.343018 250.300247 315.79306 247.662125 313.033752 C 227.023605 291.447327 211.152954 267.11319 205.655823 237.290176 C 202.19696 218.525223 208.447571 202.709656 224.598785 192.279495 C 241.612503 181.292282 259.791382 181.129608 276.944092 191.924179 C 293.41748 202.291245 299.112671 218.261658 296.607147 237.25766 C 295.622894 244.719635 293.200317 251.827164 290.180664 259.125641 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.15 -17)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.15, -233)" d="M 220.150665 227.61441 C 225.628891 207.357529 243.140427 197.38269 261.497284 203.671112 C 276.101501 208.673965 284.963196 224.364456 281.718445 239.474594 C 278.318634 255.306793 264.171417 265.428528 247.331985 264.076691 C 232.798065 262.909912 220.441025 249.603699 219.939728 234.523407 C 219.868088 232.368088 220.028366 230.205048 220.150665 227.61441 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.11 -16.99)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.11, -233.01)" d="M 260.467957 248.755188 C 250.296143 253.41748 240.905731 251.016434 235.61438 242.673309 C 230.914627 235.262985 232.354309 225.40741 238.993134 219.543427 C 246.484573 212.926346 257.820068 213.482468 264.577026 220.798584 C 271.32782 228.108032 270.874908 239.479553 263.531952 246.391479 C 262.687378 247.186493 261.714752 247.845459 260.467957 248.755188 z" stroke-linecap="round" />
+                        </g>
+                        </g>
+                        </g>
+                    </a>
+                    <a id="bloco-6" href="/blocos/bloco06.html" target="_self">
+                        <g transform="matrix(0.13 0 0 0.13 376.5 109.5)"  >
+                        <g>
+                            <g transform="matrix(1 0 0 1 1.27 1.22)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.27, -251.22)" d="M 126.358475 253.552673 C 124.871017 228.373642 131.694748 205.770706 144.689957 184.830093 C 157.075745 164.871506 173.932098 149.665436 194.603928 138.790436 C 208.577728 131.439117 223.782547 127.937111 239.45253 126.537666 C 244.02594 126.129242 248.642303 126.201782 253.70282 126.132034 C 257.210327 126.874573 260.299805 126.279991 263.734009 126.731415 C 276.872589 127.589592 288.954132 131.124054 300.529938 136.238831 C 317.488953 143.732208 332.455994 154.205582 344.686188 168.218567 C 358.463623 184.004333 368.278229 202.058105 372.944489 222.530228 C 379.089142 249.488525 377.117065 275.926117 365.86734 301.380035 C 354.48761 327.128235 336.393066 346.748383 311.870361 360.658844 C 289.755188 373.203583 265.92215 377.793579 240.935486 375.887634 C 213.737473 373.812988 189.753876 363.528259 168.91777 345.64035 C 152.876846 331.869202 141.559875 315.004791 133.835327 295.564026 C 129.784348 285.368713 127.748978 274.639313 126.24765 263.400574 C 126.907959 260.00766 126.32531 256.947723 126.358475 253.552673 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 9.21 -123.41)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-259.21, -126.59)" d="M 263.875427 126.564934 C 261.025757 127.12796 257.957275 127.084122 254.549332 126.278374 C 257.324707 126.210701 260.482758 126.211205 263.875427 126.564934 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 -123.49 8.16)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-126.51, -258.16)" d="M 126.196632 253.626221 C 126.265457 256.252625 127.519608 259.269775 126.356339 262.692261 C 126.137291 260.031281 126.145622 257.04718 126.196632 253.626221 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.13 1.14)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.13, -251.15)" d="M 294.564087 189.440186 C 309.364288 205.891739 313.489319 224.758362 308.02298 245.49826 C 299.566589 277.582794 282.520203 304.612701 258.061432 326.947083 C 252.235825 332.266693 250.141418 332.356567 244.37294 327.096588 C 217.927933 302.982849 199.25499 274.033936 192.907272 238.469147 C 185.353821 196.148972 222.557693 165.086456 262.637177 172.3647 C 274.988556 174.607651 285.53775 180.228577 294.564087 189.440186 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 0.95 -0.58)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-250.95, -249.42)" d="M 290.180664 259.125641 C 281.585449 279.49295 269.887695 297.331329 254.598328 312.818359 C 252.105911 315.343018 250.300247 315.79306 247.662125 313.033752 C 227.023605 291.447327 211.152954 267.11319 205.655823 237.290176 C 202.19696 218.525223 208.447571 202.709656 224.598785 192.279495 C 241.612503 181.292282 259.791382 181.129608 276.944092 191.924179 C 293.41748 202.291245 299.112671 218.261658 296.607147 237.25766 C 295.622894 244.719635 293.200317 251.827164 290.180664 259.125641 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.15 -17)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.15, -233)" d="M 220.150665 227.61441 C 225.628891 207.357529 243.140427 197.38269 261.497284 203.671112 C 276.101501 208.673965 284.963196 224.364456 281.718445 239.474594 C 278.318634 255.306793 264.171417 265.428528 247.331985 264.076691 C 232.798065 262.909912 220.441025 249.603699 219.939728 234.523407 C 219.868088 232.368088 220.028366 230.205048 220.150665 227.61441 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.11 -16.99)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.11, -233.01)" d="M 260.467957 248.755188 C 250.296143 253.41748 240.905731 251.016434 235.61438 242.673309 C 230.914627 235.262985 232.354309 225.40741 238.993134 219.543427 C 246.484573 212.926346 257.820068 213.482468 264.577026 220.798584 C 271.32782 228.108032 270.874908 239.479553 263.531952 246.391479 C 262.687378 247.186493 261.714752 247.845459 260.467957 248.755188 z" stroke-linecap="round" />
+                        </g>
+                        </g>
+                        </g>
+                    </a>
+                    <a id="bloco-7" href="/blocos/bloco07.html" target="_self">
+                        <g transform="matrix(0.13 0 0 0.13 168.5 56.5)"  >
+                        <g>
+                            <g transform="matrix(1 0 0 1 1.27 1.22)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.27, -251.22)" d="M 126.358475 253.552673 C 124.871017 228.373642 131.694748 205.770706 144.689957 184.830093 C 157.075745 164.871506 173.932098 149.665436 194.603928 138.790436 C 208.577728 131.439117 223.782547 127.937111 239.45253 126.537666 C 244.02594 126.129242 248.642303 126.201782 253.70282 126.132034 C 257.210327 126.874573 260.299805 126.279991 263.734009 126.731415 C 276.872589 127.589592 288.954132 131.124054 300.529938 136.238831 C 317.488953 143.732208 332.455994 154.205582 344.686188 168.218567 C 358.463623 184.004333 368.278229 202.058105 372.944489 222.530228 C 379.089142 249.488525 377.117065 275.926117 365.86734 301.380035 C 354.48761 327.128235 336.393066 346.748383 311.870361 360.658844 C 289.755188 373.203583 265.92215 377.793579 240.935486 375.887634 C 213.737473 373.812988 189.753876 363.528259 168.91777 345.64035 C 152.876846 331.869202 141.559875 315.004791 133.835327 295.564026 C 129.784348 285.368713 127.748978 274.639313 126.24765 263.400574 C 126.907959 260.00766 126.32531 256.947723 126.358475 253.552673 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 9.21 -123.41)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-259.21, -126.59)" d="M 263.875427 126.564934 C 261.025757 127.12796 257.957275 127.084122 254.549332 126.278374 C 257.324707 126.210701 260.482758 126.211205 263.875427 126.564934 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 -123.49 8.16)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-126.51, -258.16)" d="M 126.196632 253.626221 C 126.265457 256.252625 127.519608 259.269775 126.356339 262.692261 C 126.137291 260.031281 126.145622 257.04718 126.196632 253.626221 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.13 1.14)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.13, -251.15)" d="M 294.564087 189.440186 C 309.364288 205.891739 313.489319 224.758362 308.02298 245.49826 C 299.566589 277.582794 282.520203 304.612701 258.061432 326.947083 C 252.235825 332.266693 250.141418 332.356567 244.37294 327.096588 C 217.927933 302.982849 199.25499 274.033936 192.907272 238.469147 C 185.353821 196.148972 222.557693 165.086456 262.637177 172.3647 C 274.988556 174.607651 285.53775 180.228577 294.564087 189.440186 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 0.95 -0.58)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-250.95, -249.42)" d="M 290.180664 259.125641 C 281.585449 279.49295 269.887695 297.331329 254.598328 312.818359 C 252.105911 315.343018 250.300247 315.79306 247.662125 313.033752 C 227.023605 291.447327 211.152954 267.11319 205.655823 237.290176 C 202.19696 218.525223 208.447571 202.709656 224.598785 192.279495 C 241.612503 181.292282 259.791382 181.129608 276.944092 191.924179 C 293.41748 202.291245 299.112671 218.261658 296.607147 237.25766 C 295.622894 244.719635 293.200317 251.827164 290.180664 259.125641 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.15 -17)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(252,50,49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.15, -233)" d="M 220.150665 227.61441 C 225.628891 207.357529 243.140427 197.38269 261.497284 203.671112 C 276.101501 208.673965 284.963196 224.364456 281.718445 239.474594 C 278.318634 255.306793 264.171417 265.428528 247.331985 264.076691 C 232.798065 262.909912 220.441025 249.603699 219.939728 234.523407 C 219.868088 232.368088 220.028366 230.205048 220.150665 227.61441 z" stroke-linecap="round" />
+                        </g>
+                            <g transform="matrix(1 0 0 1 1.11 -16.99)"  >
+                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.11, -233.01)" d="M 260.467957 248.755188 C 250.296143 253.41748 240.905731 251.016434 235.61438 242.673309 C 230.914627 235.262985 232.354309 225.40741 238.993134 219.543427 C 246.484573 212.926346 257.820068 213.482468 264.577026 220.798584 C 271.32782 228.108032 270.874908 239.479553 263.531952 246.391479 C 262.687378 247.186493 261.714752 247.845459 260.467957 248.755188 z" stroke-linecap="round" />
+                        </g>
+                        </g>
+                        </g>
+                    </a>
+                    </svg>
+                </div>
+        </section>
+
+        <footer class="rodape">
+            
+        </footer>
+
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,653 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Open';
+    src: url(/fontes/OpenSans-VariableFont_wdth\,wght.ttf) format(truetype);
+}
+/*ESTILIZANDO O BODY*/
+body{
+    font: normal normal 1em 'Open', sans-serif;
+    margin: 0;
+    background-color: rgb(254, 255, 242);
+/*COR DE FUNDO AMARELADA PARA MELHOR LEITURA*/
+}
+
+/*CABECALHO INICIAL*/
+
+header#cabecalho_inicio{
+    width: auto;
+    height: 80px;
+    background-color: rgb(141, 178, 104);
+}
+
+header > h1#principal{
+    font: normal bolder 2em 'Open', sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 0px 15px;
+    padding-top: 22px;
+
+}
+
+.nav_inicio{
+    font: normal normal 0.8em 'Open', sans-serif;
+    width: 150px;
+    margin: auto;
+    margin-top: 5px;
+    
+}
+
+.borda{
+    border-style: solid;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+}
+
+
+/*ESTILIZANDO OS LINKS DOS NAVS LATERAIS*/
+
+span.linhas_dec{
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 1px;
+
+    width: 150px;
+
+    border-style: solid;
+    border-color: rgb(222, 222, 222);
+}
+
+a.nav_vertical{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font: normal normal 0.8em 'Open', sans-serif;
+    width: 100px;
+}
+
+/*DECORANDO O HOVER E O VISITED DOS LINKS DO NAV VERTICAL*/
+a.interacao:hover{
+    font: normal bolder 0.8em 'Open', sans-serif;
+}
+
+/*ESTILIZANDO A NAV VERTICAL*/
+
+
+dt.titulo_lista{
+    font: normal bolder 1em 'Open', sans-serif;
+    background-color: rgb(237, 239, 241);
+    color: rgb(96, 128, 64);
+    width: 150px;
+    
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 3px;
+    border-bottom-width: 0px;
+    padding-left: 10px;
+
+    border-style: solid;
+    border-color: rgb(96, 128, 64);
+    margin: 50px 0px 0px 150px;
+}  
+
+dd.margem_lista{
+    margin: 0;
+    width: 150px;
+}
+
+
+div.total_nav_latera{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 30px -130px;
+}
+
+ul.container_lista{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    width: auto;
+    margin: 20px 0px 0px 110px;
+    justify-content: space-around;
+    height: 130px;
+}
+
+ul#espacamento{
+    height: 100px;
+}
+
+/*ESTILIZANDO O TÍTULO DOS BLOCOS*/
+
+li.sem_salas{
+    width: auto;
+    margin: auto;
+    padding: 4.2px;
+}
+
+section > h2.titulo_bloco{
+    font: normal bolder 1em 'Open', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    text-align: left;
+    width: 300px;
+    height: 30px;
+    padding: 8px 0px 0px 10px;
+    
+}
+
+h2.limite_titulo{
+    background-color: rgb(96, 128, 64);
+    width: 250px;
+    height: 40px;
+    margin: 0;
+}
+
+figure.limite{
+    width: 380px;
+    margin: auto;
+}
+
+/*ESTILIZANDO LISTA COM O NOME DAS SALAS*/
+
+.texto_geral{
+    font: normal normal 0.9em 'Open', sans-serif;
+    text-align: justify;
+    padding: 5px 5px;
+    margin-top: 8px;
+}
+
+ul.lista_salas_geral{
+    background-color: rgb(244, 244, 244);
+    list-style: none;
+    margin: 0 13px 0 13px;
+    width: auto;
+    height: auto;
+    padding: 0;
+}
+
+ul.lista_salas_geral_suges{
+    background-color: rgb(244, 244, 244);
+    list-style: none;
+    margin: 0 13px 0 13px;
+    width: auto;
+    height: 350px;
+    padding: 0;
+}
+
+.campo_resp{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 15px; 
+    width: auto;
+}
+
+.area_texto{
+    display: block;
+    width: auto;
+
+}
+
+main#container_principal{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column; 
+    margin: 0;
+}
+
+section.blocos{
+    margin: 50px 10px 100px 10px;
+    width: auto;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 2px;
+    padding-bottom: 20px;
+
+    border-style: solid;
+    border-color: rgb(222, 222, 222);
+
+}
+
+section ul li.th::before{
+    content: "->";
+}
+
+h2.chegando{
+    font: normal bolder 1em 'Open', sans-serif;
+    margin-left: 15px;
+    color: rgb(141, 178, 104);
+    text-align: left;
+    width: auto;
+    
+}
+
+img.mapa_bloco{
+    width: 390px;
+    height: 390px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+
+
+ul > li > img.foto_blocos{
+    border-radius: 5px;
+    display: flex;
+    width: 392px;
+    height: 270px;
+    margin-bottom: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: rgb(148, 186, 110);
+}
+
+ul.lista_fotos{
+    list-style: none;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 50px 0 60px 0;
+}
+
+/*--------------- DETALHES ÁREA RECREATIVA -----------------*/
+
+.tamanho_foto{
+    width: 390px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+.fotos_areas{
+    margin: 0;
+
+}
+.sub_legenda{
+    background-color: rgb(225, 225, 225);
+    font: normal bolder 1.2em 'Open', sans-serif;
+    color: rgb(221, 113, 74);
+    width: 300px;
+    height: 35px;
+    padding-top: 6px;
+    margin: 0px auto 10px auto;
+
+    border-color: rgb(221, 113, 74);
+    border-style: solid;
+    border-width: 1px 4px 1px 4px;
+    text-align: center;
+}
+
+legend.legenda_img{
+    font: normal bolder 0.8em 'Open', sans-serif;
+    text-align: center;
+    width: auto;
+}
+p.explicando{
+    font: normal normal 0.95em 'Open', sans-serif;
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: rgb(244, 244, 244);
+    padding: 1px 3px 1px 3px;
+}
+
+#principal_recre{
+    font: normal bolder 2.4em 'Open', sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding-top: 22px;
+    padding-left: 5px;
+    
+}
+
+/*-----------------------IMAGEM DAS EMPRESAS --------------------------*/
+
+.perfil_empresas{
+    padding: 0;
+    margin: 0;
+    
+}
+.img_perfil_empresas{
+    border-radius: 20%;
+    width: 180px;
+    height: 180px;
+    box-shadow: 1px 1px 5px rgb(26, 26, 26);
+}
+
+/*TÍTULO*/
+h2.oquee{
+    font: normal bolder 1.3em 'Open', sans-serif;
+    color: rgb(1, 19, 50);
+    width: 100%;
+    height: 30px;
+}
+
+/* LINK DAS EMPRESAS */
+a.texto_link{
+    font: normal bolder 0.9em 'Open', sans-serif;
+    color: rgb(1, 19, 50);
+    text-decoration: none;
+
+}
+a.inte:hover{
+    color: rgb(7, 60, 152);
+    text-decoration: underline;
+}
+
+
+/*DESCRIÇÃO EMPRESA*/
+p.texto_descritivo{
+    font: normal normal 0.95em 'Open', sans-serif;
+    text-align: justify;
+}
+
+/*------------------------------SEÇÃO BLOCOS, COM RELAÇÃO AOS MAPS-----------------------------------*/
+
+p.titulo_secao_blocos{
+    margin-top: 30px;
+    font: normal bolder 1em 'Open', sans-serif;
+    color: rgb(96, 128, 64);
+    border-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    text-align: center;
+}
+
+ul.container_lista_blocos{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px 0px 0px 110px;
+    justify-content: space-around;
+    height: 350px;
+}
+
+/*REDES SOCIAIS EMPRESAS*/
+
+li.alinhar{
+    padding: 0;
+    margin: 0;
+}
+
+ul.lista_perfil{
+    list-style: none;
+    margin-bottom: 80px;
+    padding: 0;
+}
+
+/*------------- MINERVA DETALHES ------------- */
+
+a.texto_link_m{
+    font: normal bolder 0.9em 'Open', sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+a.inte_m:hover{
+    color: rgb(39, 39, 39);
+    text-decoration: underline;
+}
+h2.oquee_m{
+    font: normal bolder 1.3em 'Open', sans-serif;
+    color: rgb(39, 39, 39);
+    width: 100%;
+    height: 30px;
+}
+
+/*-----------SICOOB DETALHES------------*/
+h2.oquee_s{
+    font: normal bolder 1.3em 'Open', sans-serif;
+    color: rgb(0, 53, 62);
+    width: 100%;
+    height: 30px;
+}
+
+a.inte_s:hover{
+    color: rgb(0, 79, 95);
+    text-decoration: underline;
+}
+
+a.texto_link_s{
+    font: normal bolder 0.9em 'Open', sans-serif;
+    color: rgb(0, 37, 44);
+    text-decoration: none;
+
+}
+
+footer.rodape {
+    background-image: radial-gradient(rgb(108, 145, 71)50%,rgb(101, 128, 72));
+    margin-top: 100px;
+    width: auto;
+    height: 60px;
+}
+
+.t_rodape{
+    color: rgb(255, 255, 255);
+    font: normal normal 0.9em 'Open';
+    text-align: center;
+    padding: 8px;
+}
+
+div.navegacao,
+div.navegacao-menu {
+    display: none;
+}
+
+header>nav {
+    background: rgb(141, 178, 104);
+}
+
+.cell {
+    display: flex;
+    height: 0px;
+    flex-direction: row-reverse;
+}
+
+header i {
+    color: rgb(247, 247, 247);
+    font-size: 2rem;
+    padding-bottom: 45px;
+    padding-right: 10px;
+    align-self: center;
+}
+
+/*-----------------------------        RESPONSIVIDADE      -----------------------------------------*/
+
+@media (min-width: 320px) and (max-width: 399px){
+
+    .tamanho_foto{
+        width: 320px;
+        height: 185px;
+    }
+
+    header > h1#principal{
+        font-size: 1.6em;
+        padding-top: 22px;
+    }
+
+    figure.limite{
+        width: 300px;
+    }
+
+    ul > li > img.foto_blocos{
+        border-radius: 5px;
+        width: 300px;
+        height: 180px;
+    }
+
+    img.mapa_bloco{
+        display: block;
+        margin: 0;
+        width: 300px;
+        height: 290px;
+        margin: auto;
+        
+    }
+
+
+    header i {
+        color: rgb(247, 247, 247);
+        font-size: 2rem;
+        padding-bottom: 45px;
+        padding-right: 10px;
+        align-self: center;
+    }
+
+    header .navegacao-menu.ativado {
+        background: rgb(141, 178, 104);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        color: rgb(255, 255, 255);
+        z-index: 1;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 40px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        text-align: center;
+        gap: 10px;
+    }
+
+    header .navegacao-menu.ativado a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+
+}
+
+@media (min-width: 400px) and (max-width:850px) {
+
+    header i {
+        color: rgb(247, 247, 247);
+        font-size: 2rem;
+        padding-bottom: 45px;
+        padding-right: 10px;
+        align-self: center;
+    }
+
+    header .navegacao-menu.ativado {
+        background: rgb(141, 178, 104);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        color: rgb(255, 255, 255);
+        z-index: 1;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 40px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        text-align: center;
+        gap: 10px;
+    }
+
+    header .navegacao-menu.ativado a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+}
+@media (min-width: 850px) {
+
+    .tamanho_foto{
+        width: 500px;
+        height: 380px;
+        display: block;
+        margin: auto;
+        border-radius: 5px;
+    }
+
+    div.navegacao {
+        display: block;
+    }
+    
+    div.total_nav_latera{
+        float: left;
+        width: 320px;
+    }
+    main#container_principal{
+        width: auto;
+        margin: auto;
+    }
+
+    div.total_nav_latera{
+        margin: 0 15px 0 -130px;
+    }
+
+    header > h1#principal{
+        font-size: 3em;
+        padding-top: 8px;
+    }
+
+    header i {
+        visibility: hidden;
+    }
+
+    figure.limite{
+        width: 520px;
+    }
+
+    img.mapa_bloco{
+        display: block;
+        margin: auto;
+        width: 520px;
+        height: 520px;
+        border-radius: 5px;
+    }
+
+    ul > li > img.foto_blocos{
+        border-radius: 5px;
+        width: 600px;
+        height: 470px;
+    }
+}
+
+@media (min-width: 730px) {
+
+    ul > li > img.foto_blocos{
+        border-radius: 5px;
+        width: 540px;
+        height: 350px;
+    }
+    
+}
+
+@media (min-width: 1180px) {
+
+    main#container_principal{
+        width: 950px;
+        height: 100%;
+    }
+    figure.limite{
+        width: 700px;
+    }
+
+    img.mapa_bloco{
+        margin: auto;
+        width: 600px;
+        height: 600px;
+        border-radius: 5px;
+    }
+
+    .tamanho_foto{
+        width: 600px;
+        height: 400px;
+        display: block;
+        margin: auto;
+        border-radius: 5px;
+    }
+
+    ul > li > img.foto_blocos{
+        width: 600px;
+        height: 340px;
+    }
+}
+

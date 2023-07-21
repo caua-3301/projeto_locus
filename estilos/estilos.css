@@ -1,0 +1,661 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Open';
+    src: url(/fontes/OpenSans-VariableFont_wdth\,wght.ttf) format(truetype);
+}
+
+/*ESTILIZANDO O BODY*/
+body {
+    font: normal normal 1em 'Open', sans-serif;
+    margin: 0px 2px 0px 2px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+
+}
+
+/*NAV INICIAL*/
+header>nav {
+    background-image: radial-gradient(rgb(108, 145, 71)50%,rgb(101, 128, 72));
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+
+/*AJUSTANDO A LOGO DA LOCUS*/
+header>img {
+    width: 200px;
+    margin: 20px 0px 15px 20px;
+}
+
+/*DECORAÇÃO DOS LINKS DO CABEÇALHO*/
+nav>div>a.nav_inicio {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font: normal normal 0.8em 'Open';
+    margin: 0px 70px 0px 70px
+}
+
+/*DESATIVANDO O MENU PARA RESOLUÇÕES ALTAS*/
+header i {
+    visibility: hidden;
+}
+
+
+/*DECORANDO O HOVER E O VISITED DOS LINKS DO NAV INICIAL*/
+a.interacao:hover {
+    color: rgb(41, 53, 29);
+}
+
+/*ESTILIZANDO A LINHA BRANCA AO REDOR DO NAV*/
+nav>div#bordas_inicio {
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    width: 700px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /*EXPLICAR CENTRALIZAÇÃO*/
+}
+
+/*NAVEGAÇÃO PARA AS SALAS, LABS, COORDENAÇÕES, ETC*/
+
+a.nav_principal {
+    background-color: rgb(141, 178, 104);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font: normal bolder 0.8em 'Open', sans-serif;
+    text-align: center;
+    border-radius: 5px;
+
+    width: 120px;
+    height: 120px;
+}
+
+main>div>nav#container_principal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    margin: auto;
+}
+
+/*ESTILIZANDO O HOVER DO NAV PRINCIPAL*/
+
+nav>a.cor:hover {
+    background-color: rgb(102, 131, 72);
+}
+
+/*ESTILIZANDO A LEGENDA DO NAV PRINCIPAL*/
+
+section#container_legenda {
+    width: auto;
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+}
+
+p.conteudo_legenda {
+    width: 140px;
+    height: 20px;
+    text-align: center;
+    font: normal bolder 0.8em 'Open', sans-serif;
+
+}
+
+/*ESTILIZANDO A LEGENDA DA LEGENDA*/
+
+section#container_legenda_sec {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    margin: auto;
+}
+
+section>p.conteudo_legenda_sec {
+    font: normal normal 0.8em 'Open', sans-serif;
+    text-align: center;
+    width: 200px;
+    margin: 20px 0px 0px 0px;
+    color: rgb(67, 90, 42);
+}
+
+/*REPRESENTAÇÃO DO MAPA*/
+
+section>div#repesentacao {
+    height: 100px;
+    position: relative;
+    top: 100%;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*ADICIONANDO A IMAGEM SVG EM CIMA DA IMAGEM DO MAPA DO IFPB*/
+
+/*Organizando titulo*/
+h2.titulo_mapa {
+    font: normal bold 1.2em 'Open', sans-serif;
+    background-color: rgb(86, 110, 61);
+    color: rgb(255, 255, 255);
+    padding-left: 7px;
+    display: block;
+    width: auto;
+    margin: 120px 5px 30px 5px;
+}
+
+.control {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Posicionado mapa*/
+
+section.posicao_mapa {
+    width: 750px;
+    height: 550px;
+    margin: 0px auto 100px auto;
+}
+
+.control>img {
+    width: 100%;
+    position: absolute;
+}
+
+.superior {
+    position: relative;
+    text-align: center;
+
+}
+
+/*CONFIGURANDO O FOOTER DO SITE*/
+
+footer.rodape {
+    background-image: radial-gradient(rgb(108, 145, 71)50%,rgb(101, 128, 72));
+    margin-top: 180px;
+    width: auto;
+    height: 60px;
+}
+
+/*--------CONFIGURAÇÕES PARA TORNAR O SITE RESPONSIVO ABAIXO--------*/
+
+@media (min-width: 320px) and (max-width: 414px){
+
+    img#img_principal {
+        display: block;
+        width: 340px;
+        height: 120px;
+        margin: auto;
+        margin-bottom: 100px;
+        border-radius: 10px;
+    }
+    
+
+    #representacao{
+        width: 320px;
+        height: 320px;
+        margin: auto;
+        position: absolute;
+        
+    }
+
+    img.teste{
+        width: 320px;
+    
+    }
+
+    svg{
+        width: 330px;
+        height: 330px;
+    }
+
+    .superior {
+        position: relative;
+        text-align: center;
+        width: 320px;
+    }
+
+    section.posicao_mapa{
+        width: 320px;
+        height: 320px;
+        margin: auto;
+    }
+
+    .tamanho_foto{
+        width: 320px;
+        height: 185px;
+    }
+
+    header > h1#principal{
+        font-size: 1.6em;
+        padding-top: 22px;
+    }
+
+    figure.limite{
+        width: 300px;
+    }
+
+    ul > li > img.foto_blocos{
+        border-radius: 5px;
+        width: 300px;
+        height: 180px;
+    }
+
+    img.mapa_bloco{
+        display: block;
+        width: 300px;
+        height: 290px;
+        margin: auto;
+        
+    }
+
+
+    header i {
+        color: rgb(247, 247, 247);
+        font-size: 2rem;
+        padding-bottom: 45px;
+        padding-right: 10px;
+        align-self: center;
+    }
+
+    header .navegacao-menu.ativado {
+        background: rgb(141, 178, 104);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        color: rgb(255, 255, 255);
+        z-index: 1;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 40px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        text-align: center;
+        gap: 10px;
+    }
+
+    header .navegacao-menu.ativado a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+
+}
+
+@media (max-width: 414px) {
+
+    /*IMAGEM PRINCIPAL ABAIXO DO NAV DE INICIO*/
+ 
+    img#img_principal {
+        display: block;
+        
+        margin: auto;
+        margin-bottom: 100px;
+        border-radius: 10px;
+    }
+
+    .logo_locus {
+        margin-left: 10px;
+    }
+
+    nav>div#bordas_inicio {
+        width: 400px;
+        border-color: transparent;
+    }
+
+    .nav_inicio {
+        font: normal normal 0.8em 'Open';
+        margin: 0px 10px 0px 20px
+    }
+
+    header>nav {
+        background-image: radial-gradient(rgb(108, 145, 71)50%,rgb(101, 128, 72));
+    }
+    
+    header .navegacao {
+        display: none;
+    }
+
+    header i {
+        visibility: visible;
+        color: rgb(247, 247, 247);
+        font-size: 2rem;
+        padding: 5px;
+    }
+
+    header .navegacao.ativado {
+        background-image: radial-gradient(rgb(108, 145, 71)50%,rgb(101, 128, 72));
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        color: rgb(255, 255, 255);
+        z-index: 1;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 60px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .cell {
+        height: 50px;
+    }
+
+    article#img_principal {
+        margin: 0px 30px 100px 30px;
+    }
+
+    main>div>nav#container_principal {
+        margin: 0;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 800px;
+        margin-left: 30px;
+    }
+
+    section#container_legenda {
+        margin: 0;
+        height: 800px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .org_main {
+        display: flex;
+        width: auto;
+    }
+
+    p.conteudo_legenda {
+        width: 150px;
+        height: 120px;
+        text-align: justify;
+        font: normal bolder 0.9em 'Open', sans-serif;
+        margin: 5px 0 0 5px;
+    }
+
+    section#container_legenda_sec {
+        flex-direction: column;
+        width: 120px;
+        height: 850px;
+        float: left;
+        left: -36%;
+        position: relative;
+    }
+
+    section>p.conteudo_legenda_sec {
+        font: normal normal 0.9em 'Open', sans-serif;
+        text-align: justify;
+        width: 120px;
+        height: 120px;
+        margin: 5px 0px 0px 0px;
+    }
+
+    .t_rodape{
+        color: rgb(255, 255, 255);
+        font: normal normal 0.9em 'Open';
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    /*Interação nav principal*/
+
+    .capas{
+        box-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.73);
+    }
+
+    .capas:hover{
+        border: 0.1rem;
+        border-style: solid;
+        border-color: rgb(108, 145, 71);
+     }
+}
+
+@media (min-width: 415px) and (max-width: 768px) {
+
+
+    .capas:hover{
+        border: 0.1rem;
+        border-style: solid;
+        border-color: rgb(108, 145, 71);
+     }
+
+    .capas{
+        box-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.73);
+    }
+
+    img#img_principal {
+        display: block;
+        width: 400px;
+        height: 140px;
+        margin: auto;
+        margin-bottom: 100px;
+        border-radius: 5px;
+    }
+
+    .t_rodape{
+        color: rgb(255, 255, 255);
+        font: normal normal 0.9em 'Open';
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .logo_locus {
+        margin-left: 10px;
+    }
+
+    nav>div#bordas_inicio {
+        width: 400px;
+        border-color: transparent;
+    }
+
+    nav>div>a.nav_inicio {
+        font: normal normal 0.8em 'Open';
+        margin: 0px 10px 0px 20px
+    }
+
+    header>nav {
+        background-image: radial-gradient(rgb(108, 145, 71)50%,rgb(101, 128, 72));
+    }
+    
+    header .navegacao {
+        display: none;
+    }
+
+    header i {
+        visibility: visible;
+        color: #f7f7f7;
+        font-size: 2rem;
+        padding: 9px;
+    }
+
+    header .navegacao.ativado {
+        background-color: rgb(108, 145, 71);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        z-index: 1;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 60px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .cell {
+        height: 50px;
+    }
+
+    .borda{
+        border-style: solid;
+        border-top-width: 1px;
+        border-left-width: 1px;
+        border-bottom-width: 1px;
+        border-right-width: 1px;
+    }
+
+
+    main>div>nav#container_principal {
+        margin: 0;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 800px;
+        margin-left: 30px;
+    }
+
+    section#container_legenda {
+        margin: 0;
+        height: 800px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .org_main {
+        display: flex;
+        width: auto;
+    }
+
+    p.conteudo_legenda {
+        width: 150px;
+        height: 120px;
+        text-align: justify;
+        font: normal bolder 0.9em 'Open', sans-serif;
+        margin: 5px 0 0 5px;
+    }
+
+    section#container_legenda_sec {
+        flex-direction: column;
+        width: 120px;
+        height: 850px;
+        margin-left: -150px;
+    }
+
+    section>p.conteudo_legenda_sec {
+        font: normal normal 0.9em 'Open', sans-serif;
+        text-align: justify;
+        width: 180px;
+        height: 120px;
+        margin: 5px 0px 0px 0px;
+    }
+
+    section.posicao_mapa {
+        width: 400px;
+        height: 400px;
+    }
+
+}
+
+@media (min-width: 680px){
+    
+    img#img_principal {
+        width: 600px;
+        height: 180px;
+    }
+}
+
+@media (min-width: 530px) {
+
+    section.posicao_mapa {
+        width: 530px;
+        height: 530px;
+    }
+
+    nav>div#bordas_inicio {
+        width: 500px;
+    }
+
+    nav>div>a.nav_inicio {
+        margin: 0px 30px 0px 30px
+    }
+
+}
+
+@media (min-width: 769px) {
+
+    .capas:hover{
+        border: 0.1rem;
+        border-style: solid;
+        border-color: rgb(108, 145, 71);
+     }
+
+    .capas{
+        box-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.73);
+    }
+
+    img#img_principal {
+        display: block;
+        width: 760px;
+        height: 200px;
+        margin: auto;
+        margin-bottom: 100px;
+        border-radius: 5px;
+    }
+
+    section>p.conteudo_legenda_sec {
+        font: normal normal 0.9em 'Open', sans-serif;
+        text-align: center;
+        width: 130px;
+    }
+
+    nav>div#bordas_inicio {
+        width: 600px;
+    }
+
+    nav>div>a.nav_inicio {
+        font: normal bolder 0.8em 'Open', sans-serif;
+        margin: 0px 40px 0px 60px
+    }
+
+    section.posicao_mapa {
+        width: 775px;
+        height: 775px;
+    }
+
+    .t_rodape{
+        color: rgb(255, 255, 255);
+        font: normal normal 0.9em 'Open';
+        padding-top: 20px;
+        text-align: center;
+    }
+}
+
+    @media (min-width: 1014px) {
+
+        .capas{
+            box-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.73);
+        }
+
+        .capas:hover{
+           border: 0.1rem;
+           border-style: solid;
+           border-color: rgb(108, 145, 71);
+        }
+
+        img#img_principal {
+            display: block;
+            width: 970px;
+            height: 240px;
+            margin: auto;
+            margin-bottom: 100px;
+            border-radius: 5px;
+        }
+    }
